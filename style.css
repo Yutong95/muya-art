@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:20px;
+}
+
+p{
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+h3{
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+.leader{
+  display:block;
+  height:30px;
+  width:auto;
+}
+
+/* .content{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.about{
+  position:absolute;
+  right:20px;
+  top:20px;
+  font-family: 'Noto Sans SC', sans-serif;
+  text-decoration: none;
+  color:black;
+}
+
+.center_page{
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+}
+.flawer{
+  position:absolute;
+  left:20px;
+  top:20px;
+  font-family: 'Noto Sans SC', sans-serif;
+  text-decoration: none;
+  color:black;
+}
+
+.titlelogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+}
+
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  height:auto;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }

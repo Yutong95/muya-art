@@ -7,11 +7,11 @@ body{
 }
 
 p{
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Serif SC', serif;
 }
 
 h3{
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Serif SC', serif;
 }
 
 .link{
@@ -28,7 +28,8 @@ h3{
   position:absolute;
   right:20px;
   top:20px;
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 700;
   text-decoration: none;
   color:black;
 }
@@ -36,6 +37,7 @@ h3{
 .center_page{
   display:block;
   text-align: center;
+  font-weight: 700;
   text-decoration: none;
   color:black;
 }
@@ -43,7 +45,8 @@ h3{
   position:absolute;
   left:20px;
   top:20px;
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 700;
   text-decoration: none;
   color:black;
 }
@@ -73,6 +76,7 @@ h3{
 }
 .big{
   font-weight: 500;
+  font-size: 1.1rem;
 }
 .text{
   font-size: 0.8rem;
@@ -84,8 +88,13 @@ h3{
 }
 
 .english{
-  font-size: 1rem;
-  color:rgb(119, 119, 119);
+  font-family: 'Lora', serif;
+  font-size: 1.14rem;
+  color:rgb(68, 68, 68);
+}
+
+.chinese{
+  font-size: 1.1rem;
 }
 
 .information{

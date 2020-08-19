@@ -18,6 +18,7 @@ a{
   text-decoration: none;
   color:black;
 }
+
 .leader{
   display:block;
   height:30px;
@@ -40,6 +41,10 @@ a{
   color:black;
 }
 
+.about:hover{
+  color:rgb(255, 75, 27);
+}
+
 .center_page{
   display:block;
   text-align: center;
@@ -47,6 +52,11 @@ a{
   font-weight: 700;
   color:black;
 }
+
+.center_page:hover{
+  color:rgb(255, 75, 27);
+}
+
 .flawer{
   position:absolute;
   left:20px;
@@ -55,6 +65,10 @@ a{
   font-weight: 700;
   text-decoration: none;
   color:black;
+}
+
+.flawer:hover{
+  color:rgb(255, 75, 27);
 }
 
 .titlelogo{

@@ -34,13 +34,22 @@ h3{
   color:black;
 }
 
+.about:hover{
+  color:rgb(255, 75, 27);
+}
+
 .center_page{
   display:block;
   text-align: center;
-  font-weight: 700;
   text-decoration: none;
+  font-weight: 700;
   color:black;
 }
+
+.center_page:hover{
+  color:rgb(255, 75, 27);
+}
+
 .flawer{
   position:absolute;
   left:20px;
@@ -49,6 +58,10 @@ h3{
   font-weight: 700;
   text-decoration: none;
   color:black;
+}
+
+.flawer:hover{
+  color:rgb(255, 75, 27);
 }
 
 .titlelogo{

@@ -21,8 +21,14 @@ a{
 
 .leader{
   display:block;
-  height:30px;
-  width:auto;
+  /* height:30px; */
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: white;
+  z-index:99;
+  border-bottom:1px rgb(154, 154, 154) solid;
 }
 
 /* .content{

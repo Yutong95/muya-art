@@ -179,6 +179,11 @@ h3{
   width:60%;
 }
 
+.synopticeoffice-central{
+  text-align: center;
+  width:70%;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {

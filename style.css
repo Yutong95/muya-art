@@ -19,6 +19,27 @@ a{
   color:black;
 }
 
+.homepage{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+}
+
+.text{
+  font-size: 0.9rem;
+  font-style:italic;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items:center;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .leader{
   display:block;
   /* height:30px; */
@@ -122,6 +143,12 @@ a{
   .titlelogo{
   width:100%;
 }
+  .text{
+    width:100%;
+  }
+  .homepage{
+    width:100%;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -129,3 +156,10 @@ a{
   .column {
     width: 100%;
   }
+  .text{
+    width:100%;
+  }
+  .homepage{
+    width:100%;
+  }
+}

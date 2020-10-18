@@ -130,6 +130,9 @@ h3{
   .titlelogo{
   width:100%;
 }
+  .leader{
+  width:100%;
+}
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -137,6 +140,10 @@ h3{
   .container {
     width: 100%;
   }
+  .leader{
+    width:100%;
+  }
+}
 
 a{
   text-decoration: none;

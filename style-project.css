@@ -189,6 +189,9 @@ h3{
   .column {
     width: 50%;
   }
+  .leader{
+    width:100%;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -196,3 +199,7 @@ h3{
   .column {
     width: 100%;
   }
+  .leader{
+    width:100%;
+  }
+}
